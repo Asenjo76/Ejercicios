@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: #15cc43;
+}
+
+table {
+    border-collapse: collapse;    
+    margin: auto;
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(84, 188, 217);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
